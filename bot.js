@@ -61,6 +61,11 @@ client.on('message', message => {
     	message.reply('https://www.youtube.com/channel/UCLlcPDPQ4wo9WhUL2CR2RWw?view_as=subscriber');
   	}
 });
+client.on('message', message => {
+    if (message.content === 'rubbies') {
+    	message.reply('寂寞是殘障');
+  	}
+});
     
 // THIS  MUST  BE  THIS  WAY
 client.login(process.env.BOT_TOKEN);
