@@ -40,5 +40,27 @@ client.on('message', message => {
     	message.reply('我正在運作當中');
   	}
 });
+
+client.on('message', message => {
+    if (message.content === '公主') {
+    	message.reply('誰在召喚我');
+  	}
+});
+client.on('message', message => {
+    if (message.content === 'Lonely') {
+    	message.reply('寂寞主人在叫你');
+  	}
+});
+client.on('message', message => {
+    if (message.content === 'LonelyYT') {
+    	message.reply('https://www.youtube.com/channel/UCiL9eRN8QbWCOuw8HD_LOpA');
+  	}
+});
+client.on('message', message => {
+    if (message.content === 'BakedporkYT {
+    	message.reply('https://www.youtube.com/channel/UCLlcPDPQ4wo9WhUL2CR2RWw?view_as=subscriber');
+  	}
+});
+    
 // THIS  MUST  BE  THIS  WAY
 client.login(process.env.BOT_TOKEN);
