@@ -35,6 +35,10 @@ client.on('message', message => {
     	message.reply('HAHA');
   	}
 });
-
+client.on('message', message => {
+    if (message.content === 'test') {
+    	message.reply('我正在運作當中');
+  	}
+});
 // THIS  MUST  BE  THIS  WAY
 client.login(process.env.BOT_TOKEN);
