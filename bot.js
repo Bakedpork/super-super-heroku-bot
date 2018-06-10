@@ -30,18 +30,6 @@ client.on('message', message => {
     	message.reply('HAHA');
   	}
 });
-client.on('message', message => {
-    if (message.content === '666') {
-    	message.reply('好牛B');
-  	}
-});
-});
-client.on('message', message => {
-    if (message.content === 'rules') {
-    	message.reply('不要給我說髒話');
-  	}
-});
-
 
 // THIS  MUST  BE  THIS  WAY
 client.login(process.env.BOT_TOKEN);
