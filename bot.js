@@ -57,7 +57,7 @@ client.on('message', message => {
   	}
 });
 client.on('message', message => {
-    if (message.content === 'BakedporkYT {
+    if (message.content === 'BakedporkYT') {
     	message.reply('https://www.youtube.com/channel/UCLlcPDPQ4wo9WhUL2CR2RWw?view_as=subscriber');
   	}
 });
