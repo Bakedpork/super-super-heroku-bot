@@ -17,7 +17,7 @@ client.on('message', message => {
 });
 client.on('message', message => {
     if (message.content === 'pubg') {
-    	message.('寂寞我們來玩PUBG');
+    	message.content('寂寞我們來玩PUBG');
   	}
 });
 client.on('message', message => {
