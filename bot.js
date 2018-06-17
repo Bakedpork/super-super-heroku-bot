@@ -66,6 +66,10 @@ client.on('message', message => {
     	message.reply('寂寞是殘障');
   	}
 });
+client.on("message", (message) => {
+  if(message.content === "ping") {
+    message.channel.send("pong");
+  }
     
 // THIS  MUST  BE  THIS  WAY
 client.login(process.env.BOT_TOKEN);
